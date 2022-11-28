@@ -101,14 +101,14 @@ Defaults to the Chrome 91 User Agent string.
 
 #### To quickly install with all defaults, just paste this into an admin powershell window
 
-`cd $env:temp; Invoke-WebRequest -Uri https://raw.githubusercontent.com/extide/Install-OpenSSH/main/Install-OpenSSH.ps1 -OutFile Install-OpenSSH.ps1; .\Install-OpenSSH.ps1`
+`cd $env:temp; Invoke-WebRequest -Uri https://raw.githubusercontent.com/Sardelka9515/Install-OpenSSH/main/Install-OpenSSH.ps1 -OutFile Install-OpenSSH.ps1; .\Install-OpenSSH.ps1`
 
 NOTE: You should *always* examine the powershell script yourself before running it in an admin prompt!
 
 #### Custom install instructions
 
 * Open an Administrative powershell
-* Download the script with `Invoke-WebRequest -Uri https://raw.githubusercontent.com/extide/Install-OpenSSH/main/Install-OpenSSH.ps1 -OutFile Install-OpenSSH.ps1`
+* Download the script with `Invoke-WebRequest -Uri https://raw.githubusercontent.com/Sardelka9515/Install-OpenSSH/main/Install-OpenSSH.ps1 -OutFile Install-OpenSSH.ps1`
 * Open the script in your favorite editor `code Install-OpenSSH.ps1`
   * Change any options as you see fit
 * Execute the script by typing `.\Install-OpenSSH.ps1`
